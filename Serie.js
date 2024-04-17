@@ -1,6 +1,8 @@
 "use strict";
-class Serie {
-    constructor(id, nombre, plataforma, temporadas, sinopsis, link, imagen) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Serie = void 0;
+var Serie = /** @class */ (function () {
+    function Serie(id, nombre, plataforma, temporadas, sinopsis, link, imagen) {
         this.id = id;
         this.nombre = nombre;
         this.plataforma = plataforma;
@@ -9,4 +11,6 @@ class Serie {
         this.link = link;
         this.imagen = imagen;
     }
-}
+    return Serie;
+}());
+exports.Serie = Serie;
